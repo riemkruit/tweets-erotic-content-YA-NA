@@ -30,26 +30,6 @@ JUN 2019: 37
 
 TOTAL: 190
 
-### YA+BOEK-SEKS:
-
-This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'young' followed by the string 'adult' with only one character in between them, then from that grab the tweets that do not contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
-
-Results:
-
-JAN 2019: 36
-
-FEB 2019: 25
-
-MAR 2019: 28
-
-APR 2019: 33
-
-MAY 2019: 31
-
-JUN 2019: 37
-
-TOTAL: 190
-
 ### YA+BOEK+SEKS:
 
 This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'young' followed by the string 'adult' with only one character in between them, then from that grab the tweets that do contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
