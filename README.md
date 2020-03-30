@@ -1,4 +1,4 @@
-# tweets_erotic_content_YA_NA
+# tweets-erotic-content-YA-NA
 The repository of the code used in the research 'The discussion of erotic content in tweets about young adult books or new adult books' by R. Ruitenbeek (2020). This will provide you with the information on how to run the code and how to get the same results.
 # Prerequisites
 These lines of code need to be run on a linux computer or on any other operating system with a Unix shell. Next to that you need access to the Karora server, which you can get at the Faculty of Arts of the University of Groningen.
