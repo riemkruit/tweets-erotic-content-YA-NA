@@ -1,6 +1,6 @@
 # REMINDER: this is not a shell script that can be executed like this. Read the README for more information on how to use these lines of code.
 
-# CHANGE_MONTH:
+# CHANGE-MONTH:
 cd /net/corpora/twitter2/Tweets/2019/[MONTH]
 # Make sure to replace [MONTH] with the correct number as specified in the README.
 

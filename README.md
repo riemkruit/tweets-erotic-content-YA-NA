@@ -7,12 +7,12 @@ To get the results, we ran four lines of code in each of the six months in the D
 
 To get to the right directory for a month you have to use the CHANGE-MONTH command. This includes a cd command which, when [MONTH] is replaced with the month number with a 0 in front of it (so 01 for January), will take you to the directory of a month.
 
-Then for each month you have to run these four commands (the commands themselves can be found in the command file):
+Then for each month you have to run these four commands:
 
 
 ### YA+BOEK-SEKS:
 
-This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'young' followed by the string 'adult' with only one character in between them, then from that grab the tweets that do not contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
+This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'young' followed by the string 'adult' with only one character in between them. From those tweets it takes all the tweet that also contain the string 'boek' and that do not contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
 
 Results:
 
@@ -32,7 +32,7 @@ TOTAL: 190
 
 ### YA+BOEK+SEKS:
 
-This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'young' followed by the string 'adult' with only one character in between them, then from that grab the tweets that do contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
+This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'young' followed by the string 'adult' with only one character in between them. From those tweets it takes all the tweet that also contain the string 'boek' and  that do contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
 
 Results:
 
@@ -52,7 +52,7 @@ TOTAL: 0
 
 ### NA+BOEK-SEKS:
 
-This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'new' followed by the string 'adult' with only one character in between them, then from that grab the tweets that do not contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
+This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'new' followed by the string 'adult' with only one character in between them. From those tweets it takes all the tweet that also contain the string 'boek' and that do not contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
 
 Results:
 
@@ -72,7 +72,7 @@ TOTAL: 17
 
 ### NA+BOEK+SEKS:
 
-This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'new' followed by the string 'adult' with only one character in between them, then from that grab the tweets that do contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
+This command grabs all tweets that have been tweeted that month, takes out the retweets, grabs only tweets containing the string 'new' followed by the string 'adult' with only one character in between them. From those tweets it takes all the tweet that also contain the string 'boek' and that do contain the string 'seks'. Lastly, it will count the lines and the result of that will equal the amount of tweets found.
 
 Results:
 
